@@ -1,2 +1,4 @@
 # js-typesetting
-Bot for automatic text output to the screen
+Bot for automatic text output to the screen.
+
+[DEMO](http://rasp.wz2.ru/summer)
