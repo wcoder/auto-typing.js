@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Example page</title>
+    <meta charset="utf-8">
 	<style>
 	#textarea {
 		border: none;
@@ -16,34 +17,7 @@
 <textarea rows="8" cols="80" id="textarea"></textarea>
 
 
+<script src="src/typesetting.js"></script>
 <script src="script.js"></script>
-<script>
-	document.addEventListener("DOMContentLoaded", function () {
-        var textarea = document.querySelector('#textarea'),
-            data = [
-                "Привет!",
-                "Узнаешь?",
-                "Это же я!",
-                "Твой верный друг - скромный веб-сервер =)",
-                "Я показываю тебе расписание занятий.",
-                "Но, сейчас расписания нет.",
-                "Т.к. сейчас лето и все ушли на каникулы.",
-                "А ты ждешь каникул?",
-                "Что?",
-                "Эх, у меня же нет ушей =(",
-                "Могу предложить расписание экзаменов если хочешь.",
-                "Ссылка выше!",
-                "Удачной сессии и хороших каникул!",
-                "",
-                "Ой, ко мне кто-то еще пришел.",
-                "Извините, я вас оставлю на секундочку...",
-                "Ой, меня перезагружают.",
-                "Прощайте!",
-                ""
-            ];
-            
-        typesetting(textarea, data);
-    });
-</script>
 </body>
 </html>
