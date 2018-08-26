@@ -1,4 +1,4 @@
 # auto-typing.js
-Bot for automatic text output to the screen.
+Simple script for automatic text output to the screen.
 
-[DEMO](http://rasp.wz2.ru/summer)
+[DEMO](https://wcoder.github.io/auto-typing.js/)
